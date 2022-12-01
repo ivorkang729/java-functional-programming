@@ -16,6 +16,7 @@ public class Main {
 
 	}
 	
+	// Here, we can change the behavior on the flight.
 	static Integer calculate(int onScreenNumber, MathOperation operation, int enteredNumber) {
 		return operation.operate(onScreenNumber, enteredNumber);
 	}
